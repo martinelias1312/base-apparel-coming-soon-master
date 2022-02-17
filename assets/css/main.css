@@ -2,9 +2,6 @@
  *	GENERAL
  ------------------------------------------------------ */
 @import url(/assets/css/normalize.css);
-/*
-- Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
-- Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)*/
 /* border-box */
 html {
   -webkit-box-sizing: border-box;
@@ -17,8 +14,11 @@ html {
 }
 
 body {
+  height: 100vh;
+  background: linear-gradient(135deg, white, #fff5f5), linear-gradient(135deg, #f8bfbf, #ee8c8c);
   font-size: 1em;
   font-family: "Josefin Sans", sans-serif;
+  color: #ce9797;
 }
 
 img {
