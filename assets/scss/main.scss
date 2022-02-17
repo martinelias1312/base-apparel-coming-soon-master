@@ -67,6 +67,38 @@ article p {
     font-size: 0.89em;
 }
 
+/* FORM */
+#email {
+    background: hsl(0, 100%, 98%);
+    color: $color-text;
+    border: 0.5px solid $color-text;
+    border-radius: 30px;
+    padding: 1em;
+    width: 100%;
+
+    &:focus {
+        border: 1px solid $color-input-invalid;
+        outline: none;
+    }
+}
+
+.btn-submit {
+    background: url(/assets/images/icon-arrow.svg)center center no-repeat;
+    background-color:  hsl(0, 74%, 74%);
+    border: none;
+    border-radius: 30px;
+    width: 4em;
+    height: 3.325em;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 2em;
+
+    &:hover, &:focus {
+        background-color: lighten(hsl(0, 74%, 74%), 10%);
+    }
+}
+
 /* Footer */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

@@ -67,6 +67,38 @@ article p {
   font-size: 0.89em;
 }
 
+/* FORM */
+#email {
+  background: #fff5f5;
+  color: #ce9797;
+  border: 0.5px solid #ce9797;
+  border-radius: 30px;
+  padding: 1em;
+  width: 100%;
+}
+
+#email:focus {
+  border: 1px solid #f96262;
+  outline: none;
+}
+
+.btn-submit {
+  background: url(/assets/images/icon-arrow.svg) center center no-repeat;
+  background-color: #ee8c8c;
+  border: none;
+  border-radius: 30px;
+  width: 4em;
+  height: 3.325em;
+  padding: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 2em;
+}
+
+.btn-submit:hover, .btn-submit:focus {
+  background-color: #f4b8b8;
+}
+
 /* Footer */
 .attribution {
   font-size: 11px;
