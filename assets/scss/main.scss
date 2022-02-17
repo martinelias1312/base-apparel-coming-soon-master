@@ -1,2 +1,27 @@
+/*
+ *	GENERAL
+ ------------------------------------------------------ */
+
+@import url(/assets/css/normalize.css);
+@import 'variables';
+
+/* border-box */
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+    font: {
+        size: $font-size-base;
+        family: $font-family-josefin;
+    }
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/* Footer */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

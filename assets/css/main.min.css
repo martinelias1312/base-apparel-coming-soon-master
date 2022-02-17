@@ -1,2 +1,2 @@
-@import 'normalize';.attribution{font-size:11px;text-align:center}.attribution a{color:#3e52a3}
+@import url(/assets/css/normalize.css);html{-webkit-box-sizing:border-box;box-sizing:border-box}*,*:before,*:after{-webkit-box-sizing:inherit;box-sizing:inherit}body{font-size:1em;font-family:"Josefin Sans",sans-serif}img{width:100%;max-width:100%;vertical-align:middle}.attribution{font-size:11px;text-align:center}.attribution a{color:#3e52a3}
 /*# sourceMappingURL=main.min.css.map */
