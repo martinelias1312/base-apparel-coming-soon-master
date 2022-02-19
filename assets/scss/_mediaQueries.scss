@@ -17,10 +17,10 @@
     }
 
     .img-desktop {
+        object-fit: cover;
         display: block;
         height: 100vh;
         max-width: 38.125em;
-        object-fit: cover;
     }
 
     main {
