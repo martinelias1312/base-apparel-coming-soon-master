@@ -173,6 +173,8 @@ h1::selection, h1 span::selection, article p::selection, .attribution::selection
     display: none;
   }
   .img-desktop {
+    -o-object-fit: cover;
+       object-fit: cover;
     display: block;
     height: 100vh;
     max-width: 38.125em;
