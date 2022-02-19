@@ -71,7 +71,7 @@ article p {
 #email {
     background: hsl(0, 100%, 98%);
     color: $color-text;
-    border: 0.5px solid $color-text;
+    border: 0.5px solid lighten($color-text, 15%);
     border-radius: 30px;
     padding: 1em;
     width: 100%;
