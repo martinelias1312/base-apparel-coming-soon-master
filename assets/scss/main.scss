@@ -93,6 +93,7 @@ article p {
     cursor: pointer;
     position: absolute;
     right: 2em;
+    transition: .25s all ease-in-out;
 
     &:hover, &:focus {
         background-color: lighten(hsl(0, 74%, 74%), 10%);
