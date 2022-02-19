@@ -1,7 +1,7 @@
+@import url(/assets/css/normalize.css);
 /*
  *	GENERAL
  ------------------------------------------------------ */
-@import url(/assets/css/normalize.css);
 /* border-box */
 html {
   -webkit-box-sizing: border-box;
@@ -24,6 +24,75 @@ img {
   width: 100%;
   max-width: 100%;
   vertical-align: middle;
+}
+
+/*
+ *	MEDIA QUERIES
+ ------------------------------------------------------ */
+@media screen and (min-width: 599px) {
+  article {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 999px) {
+  .img-mobile {
+    display: none;
+  }
+  .img-desktop {
+    display: block;
+    height: 100vh;
+    max-width: 38.125em;
+  }
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .desktop-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 9em;
+    background: url(/assets/images/bg-pattern-desktop.svg) no-repeat, linear-gradient(135deg, white, #fff5f5), linear-gradient(135deg, #f8bfbf, #ee8c8c);
+    background-size: cover;
+  }
+  header {
+    padding: 0;
+  }
+  .logo {
+    width: 50%;
+  }
+  article {
+    text-align: left;
+    max-width: 80%;
+    margin: 0;
+  }
+  h1 {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 2.5em;
+  }
+  .btn-submit {
+    width: 6em;
+  }
+}
+
+@media screen and (min-width: 1445px) {
+  article {
+    max-width: 60%;
+  }
 }
 
 /*
@@ -140,74 +209,5 @@ h1::-moz-selection, h1 span::-moz-selection, article p::-moz-selection, .attribu
 h1::selection, h1 span::selection, article p::selection, .attribution::selection, .attribution a::selection, .logo::selection, img::selection {
   background: #413a3a;
   color: #fff;
-}
-
-/*
- *	MEDIA QUERIES
- ------------------------------------------------------ */
-@media screen and (min-width: 599px) {
-  article {
-    max-width: 50%;
-  }
-}
-
-@media screen and (min-width: 999px) {
-  .img-mobile {
-    display: none;
-  }
-  .img-desktop {
-    display: block;
-    height: 100vh;
-    max-width: 38.125em;
-  }
-  main {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-  }
-  .desktop-wrap {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding: 9em;
-    background: url(/assets/images/bg-pattern-desktop.svg) no-repeat, linear-gradient(135deg, white, #fff5f5), linear-gradient(135deg, #f8bfbf, #ee8c8c);
-    background-size: cover;
-  }
-  header {
-    padding: 0;
-  }
-  .logo {
-    width: 50%;
-  }
-  article {
-    text-align: left;
-    max-width: 80%;
-    margin: 0;
-  }
-  h1 {
-    margin-left: 0;
-    margin-right: 0;
-    font-size: 2.5em;
-  }
-  .btn-submit {
-    width: 6em;
-  }
-}
-
-@media screen and (min-width: 1445px) {
-  article {
-    max-width: 60%;
-  }
 }
 /*# sourceMappingURL=main.css.map */

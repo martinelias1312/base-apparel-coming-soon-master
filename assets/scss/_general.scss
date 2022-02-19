@@ -1,0 +1,23 @@
+/*
+ *	GENERAL
+ ------------------------------------------------------ */
+/* border-box */
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+    background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)),
+                linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    
+    font: {
+        size: $font-size-base;
+        family: $font-family-josefin;
+    }
+    color: $color-text;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
