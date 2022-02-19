@@ -81,10 +81,12 @@ form {
     height: 3.3em;
     padding: 0;
     position: absolute;
+    transition: .3s all ease-in;
 
     &:hover, &:focus {
-        background: lighten(hsl(0, 74%, 74%), 10%);
         cursor: pointer;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        background: linear-gradient(135deg, hsl(0, 80%, 90%), hsl(0, 74%, 80%));
     }
 }
 
