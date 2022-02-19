@@ -5,6 +5,10 @@
     article {
         max-width: 50%;
     }
+
+    .error-icon {
+        right: 22%;
+    }
 }
 
 @media screen and (min-width: 999px) {
@@ -59,6 +63,16 @@
 
     .btn-submit {
         width: 6em;
+    }
+
+    .error-icon {
+        right: 34%;
+    }
+}
+
+@media screen and (min-width: 1299px) {
+    .error-icon {
+        right: 28%;
     }
 }
 
