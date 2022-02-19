@@ -108,6 +108,16 @@ article p {
 }
 
 .attribution a {
-  color: #3e52a3;
+  color: #413a3a;
+}
+
+/* Selection style */
+h1::-moz-selection, h1 span::-moz-selection, article p::-moz-selection, .attribution::-moz-selection, .attribution a::-moz-selection, .logo::-moz-selection, img::-moz-selection {
+  background: #413a3a;
+  color: #fff;
+}
+h1::selection, h1 span::selection, article p::selection, .attribution::selection, .attribution a::selection, .logo::selection, img::selection {
+  background: #413a3a;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

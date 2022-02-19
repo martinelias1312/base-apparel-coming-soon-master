@@ -102,4 +102,12 @@ article p {
 
 /* Footer */
 .attribution { font-size: 0.6875em; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: $color-heading; }
+
+/* Selection style */
+h1, h1 span, article p, .attribution, .attribution a, .logo, img {
+    &::selection {
+        background: $color-heading;
+        color: #fff;
+    }
+}
