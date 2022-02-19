@@ -72,7 +72,7 @@ article p {
     background: hsl(0, 100%, 98%);
     color: $color-text;
     border: 0.5px solid lighten($color-text, 15%);
-    border-radius: 30px;
+    border-radius: 1.875em;
     padding: 1em;
     width: 100%;
 
@@ -86,7 +86,7 @@ article p {
     background: url(/assets/images/icon-arrow.svg)center center no-repeat;
     background-color:  hsl(0, 74%, 74%);
     border: none;
-    border-radius: 30px;
+    border-radius: 1.875em;
     width: 4em;
     height: 3.325em;
     padding: 0;
@@ -100,5 +100,5 @@ article p {
 }
 
 /* Footer */
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 0.6875em; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
