@@ -67,10 +67,20 @@ form {
     }
 }
 
-#error-icon {
-    position: absolute;
-    right: 26%;
+.error-icon {
     display: none;
+    width: 1.5625em;
+    position: relative;
+    right: 26%;
+}
+
+.error-msg {
+    display: none;
+    color: $color-input-invalid;
+}
+
+.error-show {
+    display: block;
 }
 
 .btn-submit {

@@ -97,10 +97,20 @@ form {
   outline: none;
 }
 
-#error-icon {
-  position: absolute;
-  right: 26%;
+.error-icon {
   display: none;
+  width: 1.5625em;
+  position: relative;
+  right: 26%;
+}
+
+.error-msg {
+  display: none;
+  color: #f96262;
+}
+
+.error-show {
+  display: block;
 }
 
 .btn-submit {
